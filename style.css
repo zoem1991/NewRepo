@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+#instructions {
+    background-color: white;
+    height: 100px;
+}
+
+#generate-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: slateblue;
+    margin-top: 100px;
+    height: 100px;
+    width: 50%; 
+    border-radius: 10px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: slateblue;
+    font-size: 2rem; 
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    color: lightslategray
+}
+
+#button {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: slateblue;
+    border-radius: 5px;
+    padding: 1px; 
+}
